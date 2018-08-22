@@ -143,10 +143,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    owner.properties = _DefaultProperties2.default.assign({}, options);
 
-	    _this.setState({
+	    _this.state = {
 	      value: owner.properties.result,
 	      cursorPosition: 0
-	    });
+	    };
 	    return _this;
 	  }
 
