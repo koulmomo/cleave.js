@@ -38,10 +38,10 @@ export default class CleaveReact extends Component {
 
     owner.properties = DefaultProperties.assign({}, options);
 
-    this.setState({
+    this.state = {
       value: owner.properties.result,
       cursorPosition: 0
-    });
+    };
   }
 
   init = () => {
